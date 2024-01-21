@@ -8,7 +8,6 @@
 import UIKit
 
 class cell_item: UITableViewCell {
-    
     @IBOutlet weak var image_: UIImageView!
     @IBOutlet weak var name_: UILabel!
     @IBOutlet weak var email_: UILabel!

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5st-pd-01G">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5st-pd-01G">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -48,9 +49,9 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="email" destination="vih-HO-JIB" id="OqO-vZ-Si6"/>
-                                            <outlet property="image" destination="pps-vR-TST" id="de6-o7-mFS"/>
-                                            <outlet property="name_" destination="KE4-7j-DCM" id="B37-kI-rFN"/>
+                                            <outlet property="email_" destination="vih-HO-JIB" id="ElQ-ks-1Tb"/>
+                                            <outlet property="image_" destination="pps-vR-TST" id="jOa-eH-va7"/>
+                                            <outlet property="name_" destination="KE4-7j-DCM" id="JsZ-xm-nx3"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
